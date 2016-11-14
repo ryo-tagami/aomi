@@ -152,5 +152,3 @@ openstack_neutron_controller_midonet_api_password: 'midonet_default_pass'
 
 #  Horizon
 openstack_horizon_keystone_hostname: 'localhost'
-
-midonet_cluster_metadata_host: '{{ ansible_default_ipv4.address }}'
