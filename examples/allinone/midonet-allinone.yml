@@ -57,7 +57,9 @@
       cassandra_heap_newsize: '256M'
 
     - role: elasticsearch
+
     - role: logstash
+      logstash_listen_port_lumberjack: 4999
 
     - role: midonet-cluster
       zookeeper_hosts:

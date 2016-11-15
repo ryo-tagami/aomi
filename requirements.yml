@@ -3,6 +3,9 @@
 - name: 'openstack-repo'
   src: 'abelboldu.openstack-repo'
 
+- name: 'geerlingguy.java'
+  src: 'geerlingguy.java'
+
 - name: 'mysql'
   src: 'geerlingguy.mysql'
 
@@ -48,10 +51,10 @@
   src: 'https://github.com/ryo-tagami/ansible-midonet-agent'
   version: 'insights'
 
-- name: 'ansible-midonet-insights-analytics'
+- name: 'midonet-insights-analytics'
   src: 'https://github.com/ryo-tagami/ansible-midonet-insights-analytics'
-  version: 'insights'
+  version: 'wip'
 
-- name: 'ansible-midonet-manager'
+- name: 'midonet-manager'
   src: 'https://github.com/ryo-tagami/ansible-midonet-manager'
   version: 'insights'
