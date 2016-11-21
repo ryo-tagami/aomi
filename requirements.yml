@@ -24,37 +24,28 @@
 - src: 'https://github.com/openstack-ansible-galaxy/openstack-horizon.git'
 
 - name: 'midonet-repo'
-  src: 'https://github.com/ryo-tagami/ansible-midonet-repo'
-  version: 'insights'
+  src: 'https://github.com/midonet/ansible-midonet-repo.git'
 
 - name: 'zookeeper'
-  src: 'https://github.com/ryo-tagami/ansible-zookeeper'
-  version: 'insights'
+  src: 'https://github.com/midonet/ansible-zookeeper.git'
 
 - name: 'cassandra'
-  src: 'https://github.com/ryo-tagami/ansible-cassandra'
-  version: 'insights'
+  src: 'https://github.com/midonet/ansible-cassandra.git'
 
 - name: 'elasticsearch'
-  src: 'https://github.com/ryo-tagami/ansible-elasticsearch'
-  version: 'insights'
+  src: 'https://github.com/midonet/ansible-elasticsearch.git'
 
 - name: 'logstash'
-  src: 'https://github.com/ryo-tagami/ansible-logstash'
-  version: 'insights'
+  src: 'https://github.com/midonet/ansible-logstash.git'
 
 - name: 'midonet-cluster'
-  src: 'https://github.com/ryo-tagami/ansible-midonet-cluster'
-  version: 'insights'
+  src: 'https://github.com/midonet/ansible-midonet-cluster.git'
 
 - name: 'midonet-agent'
-  src: 'https://github.com/ryo-tagami/ansible-midonet-agent'
-  version: 'insights'
+  src: 'https://github.com/midonet/ansible-midonet-agent.git'
 
 - name: 'midonet-insights-analytics'
-  src: 'https://github.com/ryo-tagami/ansible-midonet-insights-analytics'
-  version: 'wip'
+  src: 'https://github.com/midonet/ansible-midonet-insights-analytics.git'
 
 - name: 'midonet-manager'
-  src: 'https://github.com/ryo-tagami/ansible-midonet-manager'
-  version: 'insights'
+  src: 'https://github.com/midonet/ansible-midonet-manager.git'
